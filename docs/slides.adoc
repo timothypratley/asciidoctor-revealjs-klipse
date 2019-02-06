@@ -1,0 +1,45 @@
+= asciidoctor-revealJS-klipse example slides
+:copyright: Timothy Pratley
+:license: Eclipse Public License http://www.eclipse.org/legal/epl-v10.html
+include::slide.attrs[]
+
+
+[state=title]
+== Interactive slides example
+
+This is a title slide.
+
+RevealJS navigation help can be accessed by pressing "?".
+
+Press the "right arrow" key to move to the next slide.
+
+
+== ClojureScript
+
+[source,eval-clojure]
+(+ 1 2)
+
+
+== JavaScript
+
+[source,eval-javascript]
+1 + 2
+
+
+== HTML
+
+[source,eval-html]
+<svg>
+  <circle fill="blue"
+          r="20" cx="50" cy="50" />
+  <circle fill="green"
+          r="20" cx="200" cy="50" />
+</svg>
+
+
+== Fin
+
+Thank you
+
+https://timothypratley.github.com/asciidoctor-revealjs-klipse
+

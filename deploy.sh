@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 cd $(dirname $0)
-./build.sh
+./bb.sh
 cd site
 git init
 git add .

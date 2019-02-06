@@ -2,7 +2,7 @@
 
 Create slides from markup that contain interactive code snippets.
 
-See the [live example](https://timothypratley.github.io/asciidoctor-revaljs-klipse/slides.html).
+See the https://timothypratley.github.io/asciidoctor-revaljs-klipse/slides.html[live example].
 
 Notice that you can click into the code blocks and change them, it re-evaluates on the fly.
 This is handy for people who want to play around with your examples,

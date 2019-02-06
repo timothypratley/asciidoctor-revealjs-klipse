@@ -41,5 +41,5 @@ Press the "right arrow" key to move to the next slide.
 
 Thank you
 
-https://timothypratley.github.com/asciidoctor-revealjs-klipse
+https://github.com/timothypratley/asciidoctor-revealjs-klipse
 

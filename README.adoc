@@ -9,10 +9,12 @@ This is handy for people who want to play around with your examples,
 or if you just want nice syntax highlighting.
 
 This is a template project that shows how you can produce interactive slides.
-It combines Asciidoctor, RevealJS and Klipse.  
-Asciidoctor is a powerful toolchain for publishing.
-RevealJS is a slide deck generator.
-Klipse is a client-side code evaluator.
+It combines:
+
+1. https://asciidoctor.org/[Asciidoctor], a powerful toolchain for publishing
+2. https://revealjs.com/[RevealJS], a slide deck generator
+3. https://github.com/viebel/klipse[Klipse], an interactive client-side code evaluator.  
+
 
 == Building
 

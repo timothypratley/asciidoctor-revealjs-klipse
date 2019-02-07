@@ -7,7 +7,12 @@ include::slide.attrs[]
 [state=title]
 == Interactive slides example
 
-This is a title slide.
+The slides are built with https://revealjs.com/[RevealJS], a slide deck generator using https://asciidoctor.org/[Asciidoctor], a powerful toolchain for publishing.
+
+The code snippets are evaluated by https://github.com/viebel/klipse[Klipse], an interactive client-side code evaluator.
+
+A template for this type of presentations is available in https://github.com/timothypratley/asciidoctor-revealjs-klipse[asciidoctor-revealjs-klipse github repository].
+
 
 RevealJS navigation help can be accessed by pressing "?".
 
@@ -18,6 +23,7 @@ Press the "right arrow" key to move to the next slide.
 
 [source,eval-clojure]
 (+ 1 2)
+
 
 
 == JavaScript

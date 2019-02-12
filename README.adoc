@@ -9,6 +9,9 @@ It re-evaluates the code on the fly.
 This is handy for people who want to play around with your examples,
 or if you just want nice syntax highlighting.
 
+
+== About
+
 This is a template project that shows how you can produce interactive slides.
 
 The slides are generated using the
@@ -31,7 +34,14 @@ Hello and welcome to my talk!
 You can see the source for the slides in this repo under
 link:docs/slides.adoc[docs/slides.adoc].
 
-The key things required to make Klipse work well inside the slides are:
+
+== Dependencies
+
+1. https://asciidoctor.org/[Asciidoctor], a powerful toolchain for publishing
+2. https://revealjs.com/[RevealJS], a slide deck generator
+3. https://github.com/viebel/klipse[Klipse], an interactive client-side code evaluator.  
+
+The key things required to integrate Klipse inside the slides are:
 
 1. Load the Klipse javascript.
    Trigger a window resize event on slide transition.
@@ -44,13 +54,6 @@ The key things required to make Klipse work well inside the slides are:
    so that the cursor shows and clicking on the last line doesn't scroll weirdly.
    Also override `klipse-snippet` and `klipse-result` to make them stand out a little.
    (see end of link:site/slides.css[site/slides.css])
-
-
-== Dependencies
-
-1. https://asciidoctor.org/[Asciidoctor], a powerful toolchain for publishing
-2. https://revealjs.com/[RevealJS], a slide deck generator
-3. https://github.com/viebel/klipse[Klipse], an interactive client-side code evaluator.  
 
 
 == Building

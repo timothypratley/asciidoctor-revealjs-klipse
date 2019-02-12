@@ -72,7 +72,7 @@ Builds, watches for changes, rebuilds
 == Deploying
 
 An automated TravisCI builds and deploys whenever changes are pushed to the master branch.
-The automated deployment is configured in the `.travis.yml` file.
+The automated deployment is configured in link:.travis.yml[.travis.yml].
 See https://docs.travis-ci.com/user/deployment/pages/[Github Pages deployment with Travis].
 
 It is also possible to build and deploy the site to github pages manually:

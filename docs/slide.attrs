@@ -3,6 +3,7 @@
 :revealjs_center: false
 :revealjs_minScale: 1.0
 :revealjs_maxScale: 1.0
+:revealjs_history: true
 :docinfo: shared
 :notitle:
 :icons: font

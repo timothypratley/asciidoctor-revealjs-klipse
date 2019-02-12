@@ -5,18 +5,16 @@ include::slide.attrs[]
 
 
 [state=title]
-== Interactive slides example
+== Interactive slides with Klipse example
 
-The slides are built with https://revealjs.com/[RevealJS], a slide deck generator using https://asciidoctor.org/[Asciidoctor], a powerful toolchain for publishing.
+Welcome!
 
-The code snippets are evaluated by https://github.com/viebel/klipse[Klipse], an interactive client-side code evaluator.
-
-A template for this type of presentations is available in https://github.com/timothypratley/asciidoctor-revealjs-klipse[asciidoctor-revealjs-klipse github repository].
-
-
-RevealJS navigation help can be accessed by pressing "?".
+Press "?" for help.
 
 Press the "right arrow" key to move to the next slide.
+
+[NOTE.speaker]
+This text will only show in the speaker view mode.
 
 
 == ClojureScript
@@ -24,12 +22,16 @@ Press the "right arrow" key to move to the next slide.
 [source,eval-clojure]
 (+ 1 2)
 
+TIP: Try changing the numbers in the top box.
+The answer in the bottom box is evaluated immediately.
 
 
 == JavaScript
 
 [source,eval-javascript]
 1 + 2
+
+NOTE: Multiple languages are supported by Klipse
 
 
 == HTML
@@ -42,10 +44,51 @@ Press the "right arrow" key to move to the next slide.
           r="20" cx="200" cy="50" />
 </svg>
 
+TIP: Try changing one of the colors
 
-== Fin
 
-Thank you
+== What is Klipse?
 
-https://github.com/timothypratley/asciidoctor-revealjs-klipse
+An interactive client-side code evaluator.
 
+Turns `<pre><code> ... </code></pre>` snippets into a live editor,
+with beautiful syntax highlighting.
+
+Supports many languages.
+
+Perfect for blogs... and slides!
+
+See the https://github.com/viebel/klipse[Klipse github repo, role="external", window="_blank"].
+
+
+== What is AsciiDoctor?
+
+A powerful toolchain for publishing.
+
+Better than markdown:
+
+* Target multiple formats (html/pdf/book/slides)
+* Tables, figures, tip/warn/note, table of contents
+
+See https://asciidoctor.org/[Asciidoctor, role="external", window="_blank"] for more information.
+
+
+== What is RevealJS?
+
+A modern HTML slide presentation framework.
+
+Features include:
+
+* Speaker notes and full screen
+* Transitions
+* And much more
+
+Read more on the https://revealjs.com/[RevealJS website, role="external", window="_blank"].
+
+== Putting it all together...
+
+This presentation is a template project for creating your own presentation.
+
+Get the source:
+
+https://github.com/timothypratley/asciidoctor-revealjs-klipse[asciidoctor-revealjs-klipse github repository, role="external", window="_blank"].

@@ -19,7 +19,7 @@ This text will only show in the speaker view mode.
 
 == ClojureScript
 
-[source,eval-clojure]
+[source.eval-clojure, clojure]
 (+ 1 2)
 
 TIP: Try changing the numbers in the top box.
@@ -28,7 +28,7 @@ The answer in the bottom box is evaluated immediately.
 
 == JavaScript
 
-[source,eval-javascript]
+[source.eval-javascript, javascript]
 1 + 2
 
 NOTE: Multiple languages are supported by Klipse
@@ -36,7 +36,7 @@ NOTE: Multiple languages are supported by Klipse
 
 == HTML
 
-[source,eval-html]
+[source.eval-html, html]
 <svg>
   <circle fill="blue"
           r="20" cx="50" cy="50" />

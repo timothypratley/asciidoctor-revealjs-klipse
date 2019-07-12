@@ -29,6 +29,18 @@ Hello and welcome to my talk!
 
 [source,eval-clojure]
 (+ 1 2)
+
+
+== Another Slide
+
+Now for something a little different...
+
+
+=== A Vertical Slide
+
+[source,eval-clojure]
+(inc 1)
+
 ----
 
 You can see the source for the slides in this repo under

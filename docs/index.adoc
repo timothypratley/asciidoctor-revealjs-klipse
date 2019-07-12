@@ -1,6 +1,10 @@
 = asciidoctor-revealJS-klipse
 :copyright: Timothy Pratley
 :license: Eclipse Public License http://www.eclipse.org/legal/epl-v10.html
+:notitle:
+
+
+== Klipse Slides
 
 * link:slides.html[Example Slides]
 * https://github.com/timothypratley/asciidoctor-revealJS-klipse[Source Github]

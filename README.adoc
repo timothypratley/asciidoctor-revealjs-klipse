@@ -2,7 +2,7 @@
 
 Create slides from markdown that contain interactive code snippets.
 
-See the https://timothypratley.github.io/asciidoctor-revealjs-klipse/slides.html[live example].
+See the link:slides.html[live example].
 
 Notice that you can click into the code blocks and change them.
 It re-evaluates the code on the fly.
@@ -93,3 +93,10 @@ See https://docs.travis-ci.com/user/deployment/pages/[Github Pages deployment wi
 It is also possible to build and deploy the site to github pages manually:
 
     ./deploy.sh
+
+
+== License
+
+GNU General Public License v3.0
+See the link:LICENSE[LICENSE] for the full license text.
+

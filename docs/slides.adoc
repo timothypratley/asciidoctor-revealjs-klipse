@@ -26,6 +26,14 @@ TIP: Try changing the numbers in the top box.
 The answer in the bottom box is evaluated immediately.
 
 
+== Larger example
+
+[source.eval-clojure, clojure]
+(defn greet [person]
+  (str "Hello " person))
+(map greet ["Alice" "Bob" "Carol"])
+
+
 == JavaScript
 
 [source.eval-javascript, javascript]
